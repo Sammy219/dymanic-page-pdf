@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="App">
     <div className="page-header" style={{textAlign: 'center'}}>
-      <img id="img-header" src={Header} height="100%" width="100%"/>
+      <img src={Header} height="100%" width="100%"/>
     </div>
 
     <div className="page-footer">
-      <img id="img-header" src={Footer} width="100%"/>
+      <img src={Footer} width="100%"/>
     </div>
 
     <table>
@@ -32,8 +32,8 @@ function App() {
             {/* <div className="page">PAGE 1</div> */}
             {/* <div className="page">PAGE 2</div> */}
             <div className="page" style={{lineHeight: 3}}>
-            <a style={{fontSize: 14}}>INTERNAL MEMO</a>
-            <table style={{borderCollapse: "collapse", lineHeight: '18px', fontSize:14}}>
+            INTERNAL MEMO
+            <table style={{borderCollapse: "collapse", lineHeight: '18px',}}>
                     <tr>
                         <td>Nomor</td>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </td>
@@ -70,13 +70,13 @@ function App() {
                     </tr> */}
                 </table>
                     <hr color="black" width="100%"/>
-                <table style={{borderCollapse: "collapse", lineHeight: '18px', fontSize:14}}>
+                <table style={{borderCollapse: "collapse", lineHeight: '18px',}}>
                     <tr style={{lineHeight: 2}}>
                         <td><b>TUJUAN</b></td>
                         <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Mendapatkan PersetujuanSewa</td>
                     </tr>
                 </table>
-                <p style={{lineHeight: "16px", textAlign: "justify", marginTop: "0.5%", fontSize:14}}>
+                <p style={{lineHeight: "16px", textAlign: "justify", marginTop: "0.5%",}}>
                   <b>LATAR BELAKANG</b><br/>
                   {message}
                   {message}
@@ -91,7 +91,7 @@ function App() {
                       <li>Masih dibutuhkannya ruangan kerja untuk kantor TAP Sekayu, maka dari itu kami memohon izin untuk Pengajuan Sewa Baru Gedung TAP Sekayu</li>
                     </ol>
                 </p>
-                <p style={{lineHeight: "16px", textAlign: "justify", marginTop: "0%", fontSize:14}}>
+                <p style={{lineHeight: "16px", textAlign: "justify", marginTop: "0%",}}>
                   <b>USULAN PERSETUJUAN</b><br/>
                   Berdasarkan latar belakang di atas, dengan ini kami mengajukan permohonan persetujuan management untuk pengajuan Sewa Baru Gedung TAP Sekayu selama <b>1 Tahun</b> dengan rincian sebagai berikut :
                   <table style={{marginLeft: "4%", borderCollapse: "collapse", marginBottom: "1%", textAlign: 'left', marginTop: "1%"}}>
@@ -164,7 +164,7 @@ function App() {
                   </table>
                   Demikian permohonan ini kami sampaikan, dan atas persetujuan yang diberikan kami ucapkan terima kasih.
                 </p>
-                <table style={{width: "100%", borderCollapse: "collapse", fontSize:14,}}>
+                <table style={{width: "100%", borderCollapse: "collapse",}}>
                     <tr>
                         <th style={{fontWeight: "normal", textAlign: "left", width: "5cm"}}>Sekayu, 24 Oktober 2022</th>
                         <th></th>
